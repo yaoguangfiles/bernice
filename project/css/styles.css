@@ -1,0 +1,85 @@
+/*Bernice Chen
+    stylesheet.cc
+    3/22/2022*/
+
+/* Reset Style Rule */    
+body, header, nav, main, footer, h1, h3, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}    
+
+/* Style Rules for image */
+img {
+    max-width: 60%;
+    display: block;
+    float:right;
+}
+
+/* Style Rules for header */
+header {
+    float: left;
+    width: 25%;
+
+}
+
+/* Style Rules for navigation area */
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+     list-style-type: none;
+     margin: 0;
+     text-align: right;   
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+nav li a {
+    display:block;
+    color: lightslategray;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+
+/* Style Rules for body area */
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: "open Sans" sans-serif;
+    background-color: snow;
+}
+
+a:link {
+    text-decoration: none;
+}  
+
+/* Style Rules for main content */
+main {
+    clear: left;
+    padding: 2%;
+    font-size: 3rem; 
+    color: forestgreen;
+}
+
+/* Style Rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+    padding: 0 1em;
+}    
+
+.social {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+}
+
