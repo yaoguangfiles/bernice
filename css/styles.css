@@ -11,7 +11,7 @@ body, header, nav, main, footer, h1, h3, div, img {
 
 /* Style Rules for image */
 img {
-    max-width: 60%;
+    /* max-width: 60%; */ /*Y: - */
     display: block;
     float:right;
 }
@@ -134,10 +134,6 @@ a.name:link    {
     color:#7551a8;
 	font-size:12px;
 	text-decoration: underline;
-}
-
-div.contentDiv{
-	position:absolute;
 }
 
 div.contentDiv{
