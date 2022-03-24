@@ -2,150 +2,95 @@
     stylesheet.cc
     3/22/2022*/
 
-/* Reset Style Rule */
+/* Reset Style Rule */    
 body, header, nav, main, footer, h1, h3, div, img {
     margin: 0;
     padding: 0;
     border: 0;
-}
+}    
 
-/* Style Rules for image */
-img {
-    /* max-width: 60%; */ /*Y: - */
-    display: block;
-    float:right;
+/* Style Rules for body */
+body {
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: #555;
+    background-color: snow;
 }
 
 /* Style Rules for header */
 header {
-    float: left;
-    width: 25%;
+    position: relative;
+    top: 20px;
+}
 
+.logo {
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    float: left;
 }
 
 /* Style Rules for navigation area */
-nav {
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
-}
-
 nav ul {
-     list-style-type: none;
-     margin: 0;
-     text-align: right;
+    list-style-type: none;
+    text-align: right;   
 }
 
 nav li {
-    display: inline-block;
-    font-size: 1.5em;
+   display: inline-block;
+   font-size: 1.5em;
+   margin: 1%;
 }
 
 nav li a {
-    display:block;
-    color: lightslategray;
-    text-align: center;
-    padding: 0.5em 0.5em;
-    text-decoration: none;
-}
-
-/* Style Rules for body area */
-body {
-    width: 90%;
-    margin: 0 auto;
-    font-family: "open Sans" sans-serif;
-    background-color: snow;
+   display: block;
+   color: lightslategray;
+   padding: 0.5em 1em;
+   text-decoration: none;
 }
 
 a:link {
     text-decoration: none;
-}
+}  
 
 /* Style Rules for main content */
-main {
-    clear: left;
+article {
+    margin: 50px 25px;
+    text-align: left;
     padding: 2%;
-    font-size: 3rem;
+    font-size: 3rem; 
     color: forestgreen;
 }
 
+article a.btn {
+    font-size: 0.5em;
+    background-color: #555;
+    color: white;
+}
+
+main .image {
+    display: block;
+    width: 200;
+    height: 100;
+    margin-left: auto;
+    float:right;
+}
+
 /* Style Rules for footer content */
-footer p {
+footer {
     font-size: 0.75em;
     text-align: center;
     color: black;
     padding: 0 1em;
-}
+}    
 
 .social {
-    width: 60px;
-    height: 60px;
+    position: relative;
+    width: 10;
+    height: 8;
     align-items: center;
 }
 
-/* Yao added */
 
-.container {
-}
-
-.column{
-	color:#7551a8;
-	font:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	font-weight:bold;
-}
-.txt{
-	font:Arial, Helvetica, sans-serif;
-}
-
-a.menu:link    {
-    color:#7551a8;
-	font:Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	font-size:18px;
-}
-a.menu:visited {
-    color:#7551a8;
-}
-a.menu:hover   {
-    color: blue;
-	text-decoration: underline;
-}
-a.menu:active  {
-    color:yellow;
-}
-
-a.page:link    {
-    color:black;
-	font:Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	font-size:14px;
-}
-a.page:visited {
-}
-a.page:hover   {
-    color: red;
-}
-a.page:active  {
-    color:yellow;
-}
-
-a.name:link    {
-    color:#7551a8;
-	font-size:12px;
-	text-decoration: underline;
-}
-
-div.contentDiv{
-	position:absolute;
-}
-
-#cententyao {
-	text-align:center;
-	padding-top: 0em;
-	padding-bottom: 0em;}
-
-#headeryao {
-	text-align:center;
-	padding-top: 0em;
-	padding-bottom: 0em; }

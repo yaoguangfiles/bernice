@@ -13,15 +13,19 @@
 </head>
 
 <body>
-  <div class="container">
+
+<div id="container">
 
   <!-- Use the header area for the website logo -->
   <header>
-    <img src="images/logo.png" alt="logo of Vicious Cycles">  
-  </header>  
-
+    <div class="logo">
+      <a href="index.html">
+      <img src="images/logo.png" alt="logo of Vicious Cycles">
+      </a>  
+    </div>
+  </header> 
   <!-- Use the nav area to add hyperlinks to other pages within the website -->
-    <nav>
+  <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
@@ -29,25 +33,28 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="support.html">Support</a></li>
       </ul> 
-    </nav>   
-      
-    </div>
-
-  
+  </nav>       
+    
 <!-- Use the main area to add the main content to the webpage -->
   <main>
+    <div class="image">
     <img src="images/cycling.jpg" alt="Picture of cycling"> 
-    <h3>Clean Air <br> Happy Riding</h3>
+    </div>
+
+    <article>
+      <h3>Clean Air <br> Happy Riding</h3>
+      <a class="btn" title="Clean air happy riding" href="shop.html">Learn More</a>
+    </article>
   </main>
 
 <!-- Use the footer area to add webpage footer content -->  
   <footer>
-    <p>&copy; Copyright 2022. All Rights Reserved.</p>
-
+    &copy; Copyright 2022. All Rights Reserved.
     <div class="social">
-    <a href="https://twitter.com/"><img src="images/twitter.png" alt="logo of twitter"></a>
+      <a href="https://twitter.com/"><img src="images/twitter.png" alt="logo of twitter"></a>
     </div>  
   </footer>
+</div>  
 
 </body>
 </html>
