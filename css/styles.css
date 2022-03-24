@@ -2,12 +2,12 @@
     stylesheet.cc
     3/22/2022*/
 
-/* Reset Style Rule */    
+/* Reset Style Rule */
 body, header, nav, main, footer, h1, h3, div, img {
     margin: 0;
     padding: 0;
     border: 0;
-}    
+}
 
 /* Style Rules for image */
 img {
@@ -33,7 +33,7 @@ nav {
 nav ul {
      list-style-type: none;
      margin: 0;
-     text-align: right;   
+     text-align: right;
 }
 
 nav li {
@@ -59,13 +59,13 @@ body {
 
 a:link {
     text-decoration: none;
-}  
+}
 
 /* Style Rules for main content */
 main {
     clear: left;
     padding: 2%;
-    font-size: 3rem; 
+    font-size: 3rem;
     color: forestgreen;
 }
 
@@ -75,7 +75,7 @@ footer p {
     text-align: center;
     color: black;
     padding: 0 1em;
-}    
+}
 
 .social {
     width: 60px;
@@ -86,4 +86,56 @@ footer p {
 /* Yao added */
 
 .container {
+}
+
+.column{
+	color:#7551a8;
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.txt{
+	font:Arial, Helvetica, sans-serif;
+}
+
+a.menu:link    {
+    color:#7551a8;
+	font:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size:18px;
+}
+a.menu:visited {
+    color:#7551a8;
+}
+a.menu:hover   {
+    color: blue;
+	text-decoration: underline;
+}
+a.menu:active  {
+    color:yellow;
+}
+
+a.page:link    {
+    color:black;
+	font:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size:14px;
+}
+a.page:visited {
+}
+a.page:hover   {
+    color: red;
+}
+a.page:active  {
+    color:yellow;
+}
+
+a.name:link    {
+    color:#7551a8;
+	font-size:12px;
+	text-decoration: underline;
+}
+
+div.contentDiv{
+	position:absolute;
 }
