@@ -2,12 +2,12 @@
     stylesheet.cc
     3/22/2022*/
 
-/* Reset Style Rule */    
+/* Reset Style Rule */
 body, header, nav, main, footer, h1, h3, div, img {
     margin: 0;
     padding: 0;
     border: 0;
-}    
+}
 
 /* Style Rules for body */
 body {
@@ -35,7 +35,7 @@ header {
 /* Style Rules for navigation area */
 nav ul {
     list-style-type: none;
-    text-align: right;   
+    text-align: right;
 }
 
 nav li {
@@ -53,14 +53,14 @@ nav li a {
 
 a:link {
     text-decoration: none;
-}  
+}
 
 /* Style Rules for main content */
 article {
     margin: 50px 25px;
     text-align: left;
     padding: 2%;
-    font-size: 3rem; 
+    font-size: 3rem;
     color: forestgreen;
 }
 
@@ -84,13 +84,20 @@ footer {
     text-align: center;
     color: black;
     padding: 0 1em;
-}    
+}
 
 .social {
     position: relative;
-    width: 10;
-    height: 8;
     align-items: center;
 }
 
+.social_img {
+    width: 60px;
+    height: 60px;
+}
 
+/* Y: added the below id */
+#img_cycling {
+    width:600px;
+    height:300px;
+}

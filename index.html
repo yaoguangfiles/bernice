@@ -8,22 +8,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Vicious Cycles Website: Home</title>
-  <link rel="stylesheet" href="css/styles.css"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">   
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
 <div id="container">
+<!-- <div style="position:relative; width:1180px; height:370px; border:0px green solid;  margin:0 auto; "> -->
 
   <!-- Use the header area for the website logo -->
   <header>
-    <div class="logo">
+    <div class="logo" style="border:0px red solid;">
       <a href="index.html">
       <img src="images/logo.png" alt="logo of Vicious Cycles">
-      </a>  
+      </a>
     </div>
-  </header> 
+  </header>
   <!-- Use the nav area to add hyperlinks to other pages within the website -->
   <nav>
       <ul>
@@ -32,13 +33,14 @@
         <li><a href="shop.html">Shop</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="support.html">Support</a></li>
-      </ul> 
-  </nav>       
-    
+      </ul>
+  </nav>
+
 <!-- Use the main area to add the main content to the webpage -->
   <main>
-    <div class="image">
-    <img src="images/cycling.jpg" alt="Picture of cycling"> 
+    <div class="image" style="border:0px green solid;">
+      <!-- Y: modified the below line -->
+    <img id="img_cycling" src="images/cycling.jpg" alt="Picture of cycling">
     </div>
 
     <article>
@@ -47,14 +49,14 @@
     </article>
   </main>
 
-<!-- Use the footer area to add webpage footer content -->  
+<!-- Use the footer area to add webpage footer content -->
   <footer>
     &copy; Copyright 2022. All Rights Reserved.
     <div class="social">
-      <a href="https://twitter.com/"><img src="images/twitter.png" alt="logo of twitter"></a>
-    </div>  
+      <a href="https://twitter.com/"><img class="social_img" src="images/twitter.png" alt="logo of twitter"></a>
+    </div>
   </footer>
-</div>  
+</div>
 
 </body>
 </html>
