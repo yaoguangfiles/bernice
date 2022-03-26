@@ -1,0 +1,122 @@
+/*Bernice Chen
+    stylesheet.cc
+    3/22/2022*/
+
+/* Reset Style Rule */    
+body, header, nav, main, footer, h1, h3, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}    
+
+/* Style Rules for body */
+body {
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: #555;
+    background-color: snow;
+}
+
+/* Style Rules for header */
+header {
+    position: relative;
+    top: 20px;
+}
+
+#img_logo {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+/* Style Rules for navigation area */
+nav ul {
+    list-style-type: none;
+    text-align: right;   
+}
+
+nav li {
+   display: inline-block;
+   font-size: 1.5em;
+   margin: 1%;
+}
+
+nav li a {
+   display: block;
+   color: lightslategray;
+   padding: 0.5em 1em;
+   text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}  
+
+/* Style Rules for main content */
+.article {
+    margin: 50px 25px;
+    text-align: center;
+    padding: 2%;
+    font-size: 4rem; 
+    color: yellowgreen;
+}
+
+#content {
+    font-size: 0.3em;
+    color: #555;
+    text-align: left;
+    font-style: normal;
+}
+
+#btn {
+    font-size: 0.5em;
+    background-color: gold;
+    color: #555;
+    position: relative;
+    border-style: solid;
+}
+
+#img_cycling {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    float:right;
+}
+
+/* Style Rules for footer content */
+footer {
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    color: #555;
+    padding: 0 1em;
+    margin: 4%;
+}    
+
+#img_twitter {
+    width: 40px;
+    height: 40px;
+}
+
+#img_facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.newsletter {
+    font-size: 1em;
+    text-align: center;
+    display: inline-block;
+}
+
+#btn_join {
+    font-size: 1em;
+    background-color: gold;
+    color: #555;
+    position: relative;
+    border-style: solid;
+}

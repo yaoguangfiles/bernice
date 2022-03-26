@@ -1,0 +1,213 @@
+/*
+    Student Name: Bernice Chen
+	File Name: styles_services.css
+	Current Date: 3/23/2022
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body and images */
+body {
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: #555;
+    background-color: snow;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+
+/*Centered text */
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    font-size: 6em;
+    color: white;
+}
+
+/* Styles for Mobile Layout */
+
+/* Hide tablet-desktop content */
+    .tablet-desktop {
+        display: none;
+    }
+
+/* Style rule for the header */
+header {
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+/* Style rules for navigation area */
+nav ul {
+     list-style-type: none;
+     text-align: right;   
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 1%;
+}
+
+nav li a {
+    display: block;
+    color: lightslategray;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rules for the main content  */
+main {
+	padding: 1em;
+	background-color: snow;
+}
+
+/* Style rule for footer */
+footer {
+    position: relative;
+    font-size: 1em;
+    text-align: center;
+    color: #555;
+    padding: 0 1em;
+   
+}    
+
+#img_twitter {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+#img_facebook {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.newsletter {
+    font-size: 1em;
+    text-align: center;
+}
+
+#btn_join {
+    font-size: 1em;
+    background-color: gold;
+    color: #555;
+    position: relative;
+    border-style: solid;
+}
+
+/* Style rules for section */
+section {
+	background-color: yellowgreen;
+	color: black;
+	margin-top: 4%;
+	padding: 2%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Style rules for article */
+article {
+	margin-top: 1%;
+	padding: 1%;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 503px), print {
+
+
+    /* Tablet viewport: show tablet-desktop class */
+    .tablet-desktop {
+        display: block;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav li {
+        display: inline-block;
+        margin: 0.5%;
+    }
+    
+    nav li a {
+        padding: 0.1em 1em;
+    }
+
+    /* Tablet Viewport: Style rules for grid */
+    .grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+	}
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px), print {
+
+
+    /* Desktop viewport: style rule for header */
+    header {
+        width: 25%;
+        float: left;
+    }
+ 
+    /* Desktop Viewport: Style rules for nav */
+    nav ul {
+        text-align: right;
+    }
+
+    nav li {
+        border-radius: 0;
+    }
+
+    nav li a {
+        display: inline-block;
+        padding: 0.7em;
+    }
+
+    /* Desktop Viewport: Style rules for the main content */
+    main {
+        border-style: none;
+        margin-bottom: 1em 0;
+        overflow: auto;
+    }
+
+    .grid {
+		grid-template-columns: auto auto auto auto;
+	}
+
+    /* Desktop Viewport: Style rule for footer */
+    footer {
+        clear: left;
+    }
+
+}
+
+/* Media Query for Large Desktop Viewport */
+@media screen and (min-width: 1441px), print {
+    #container {
+        width: 1440px;
+        margin: 0 auto 0 auto;
+    }
+}    
