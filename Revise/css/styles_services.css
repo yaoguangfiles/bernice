@@ -59,7 +59,7 @@ header {
 /* Style rules for navigation area */
 nav ul {
      list-style-type: none;
-     text-align: right;   
+     text-align: right;
 }
 
 nav li {
@@ -88,8 +88,8 @@ footer {
     text-align: center;
     color: #555;
     padding: 0 1em;
-   
-}    
+
+}
 
 #img_twitter {
     display: inline-block;
@@ -142,13 +142,13 @@ article {
     .tablet-desktop {
         display: block;
     }
-    
+
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         display: inline-block;
         margin: 0.5%;
     }
-    
+
     nav li a {
         padding: 0.1em 1em;
     }
@@ -171,7 +171,7 @@ article {
         width: 25%;
         float: left;
     }
- 
+
     /* Desktop Viewport: Style rules for nav */
     nav ul {
         text-align: right;
@@ -210,4 +210,4 @@ article {
         width: 1440px;
         margin: 0 auto 0 auto;
     }
-}    
+}
